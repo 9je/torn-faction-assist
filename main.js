@@ -3,7 +3,7 @@
 // @version      1.1
 // @description  Adds a button that allows you to call for help by sending a ping to your faction's Discord
 // @author       jjmoon [3176376]
-// @namespace    https://raw.githubusercontent.com/9je/torn-faction-assist/
+// @namespace    https://github.com/9je/torn-faction-assist
 // @downloadURL  https://raw.githubusercontent.com/9je/torn-faction-assist/main/main.js 
 // @updateURL    https://raw.githubusercontent.com/9je/torn-faction-assist/main/main.js
 // @match        https://www.torn.com/loader.php?sid=attack*
