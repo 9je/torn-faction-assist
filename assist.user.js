@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Faction Discord Assist Request
-// @version      1.2
+// @version      1.3
 // @description  Adds a button that allows you to call for help by sending a ping to your faction's Discord
 // @author       jjmoon [3176376]
 // @namespace    https://github.com/9je/torn-faction-assist
