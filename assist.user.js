@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Faction Discord Assist Request
-// @version      1.3
+// @version      1.4
 // @description  Adds a button that allows you to call for help by sending a ping to your faction's Discord
 // @author       jjmoon [3176376]
 // @namespace    https://github.com/9je/torn-faction-assist
@@ -18,11 +18,11 @@ const API_KEY = "XXXXXXXXXXXXXXXX";
     "use strict";
     let e = document.createElement("div");
     e.style.margin = "10px 20px 10px 0px", e.style.display = "flex", e.style.alignItems = "center", e.innerHTML = `
-        <p style="margin-right: 10px; color: white;">Smokes:</p>
+        <span style="margin-right: 10px;">Smokes:</span>
         <input id="reqSmokes" type="number" min="0" value="0" style="width: 40px; margin-right: 10px; background-color: #5f5f5f; color: white;"/>
-        <p style="margin-right: 10px; color: white;">Tear gas:</p>
+        <span style="margin-right: 10px;">Tear gas:</span>
         <input id="reqGas" type="number" min="0" value="0" style="width: 40px; margin-right: 10px; background-color: #5f5f5f; color: white;"/>
-        <button id="reqHelp" class="torn-btn btn___RxE8_ silver" style="text-align: center; flex-grow: 1;">Help!</button>
+        <button id="reqHelp" class="torn-btn btn___RxE8_ silver center" style="text-align: center; flex-grow: 1; width: 80%; height: 80%">Help!</button>
   `;
     let t = document.querySelector(".titleContainer___QrlWP");
     t && t.appendChild(e);
